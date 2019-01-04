@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPattern_CSharp.ObserverPattern
 {
-    public interface IWeatherSystemObserver
+    public interface IWeatherSystemObserver : IDisplayElement
     {
         void Update(float temp, float humidity, float pressure);
     }

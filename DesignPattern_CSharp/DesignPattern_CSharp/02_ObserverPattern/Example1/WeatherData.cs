@@ -17,6 +17,13 @@ namespace DesignPattern_CSharp.ObserverPattern
             m_observers = new List<IWeatherSystemObserver>();
         }
 
+        public void SetMeasurements(float temperature, float humidity, float pressure)
+        {
+            this.m_temperature = temperature;
+            this.m_humidity = humidity;
+            this.m_pressure = pressure;
+        }
+
         public void RegisterObserver(IWeatherSystemObserver observer)
         {
             m_observers.Add(observer);

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPattern_CSharp.ObserverPattern
 {
-    public class CurrentConditionsDisplay : IWeatherSystemObserver
+    public class ThirdPartyDisplay : IWeatherSystemObserver
     {
         private float m_temperature;
         private float m_humidity;
@@ -13,7 +13,7 @@ namespace DesignPattern_CSharp.ObserverPattern
 
         public void Display()
         {
-            Console.WriteLine("CurrentConditions：" + m_temperature + "," + m_humidity + "," + m_pressure);
+            Console.WriteLine("ThirdParty：" + m_temperature + "," + m_humidity + "," + m_pressure);
         }
 
         public void Update(float temp, float humidity, float pressure)
