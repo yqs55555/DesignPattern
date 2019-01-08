@@ -9,9 +9,9 @@ namespace DesignPattern_CSharp.DecoratorPattern
     {
         protected string description = "Unknown Beverage";
 
-        public string GetDescription()
+        public virtual string Description
         {
-             return this.description;
+            get { return this.description; }
         }
 
         public abstract double Cost();

@@ -15,9 +15,9 @@ namespace DesignPattern_CSharp.DecoratorPattern
             this.beverage = beverage;
         }
 
-        public new string GetDescription()
+        public override string Description
         {
-            return beverage.GetDescription() + ", Soy";
+            get { return beverage.Description + ", Soy"; }
         }
 
         public override double Cost()
