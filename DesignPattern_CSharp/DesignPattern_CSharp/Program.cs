@@ -9,6 +9,7 @@ namespace DesignPattern_CSharp
     {
         static void Main(string[] args)
         {
+            DecoratorPattern.Example1Test.Test();
         }
     }
 }
