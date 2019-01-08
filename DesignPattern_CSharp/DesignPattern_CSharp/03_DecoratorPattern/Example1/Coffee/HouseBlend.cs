@@ -12,7 +12,7 @@ namespace DesignPattern_CSharp.DecoratorPattern
     {
         public HouseBlend()
         {
-            this.description = "House Blend Coffee";
+            this.BeverageDescription = "House Blend Coffee";
         }
 
         public override double Cost()

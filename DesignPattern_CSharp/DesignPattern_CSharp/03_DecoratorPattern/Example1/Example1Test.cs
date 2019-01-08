@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 
@@ -19,6 +20,7 @@ namespace DesignPattern_CSharp.DecoratorPattern
             Console.WriteLine(beverage2.Description + " $" + beverage2.Cost());
 
             Beverage beverage3 = new HouseBlend();
+            beverage3.Size = 2;
             beverage3 = new Soy(beverage3);
             beverage3 = new Mocha(beverage3);
             beverage3 = new Whip(beverage3);

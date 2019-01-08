@@ -12,17 +12,15 @@ namespace DesignPattern_CSharp.DecoratorPattern
     {
         public Whip(Beverage beverage)
         {
-            this.beverage = beverage;
+            this.Beverage = beverage;
+            this.BeverageSize = beverage.Size;
         }
 
-        public override string Description
-        {
-            get { return beverage.Description + ", Whip"; }
-        }
+        public override string Description => Beverage.Description + ", Whip";
 
         public override double Cost()
         {
-            return this.beverage.Cost() + 0.10;
+            return this.Beverage.Cost() + 0.10;
         }
     }
 }

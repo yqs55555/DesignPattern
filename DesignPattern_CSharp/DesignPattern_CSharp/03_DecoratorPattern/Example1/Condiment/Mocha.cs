@@ -9,17 +9,15 @@ namespace DesignPattern_CSharp.DecoratorPattern
     {
         public Mocha(Beverage beverage)
         {
-            this.beverage = beverage;
+            this.Beverage = beverage;
+            this.BeverageSize = beverage.Size;
         }
 
-        public override string Description
-        {
-            get { return beverage.Description + ", Mocha"; }
-        }
+        public override string Description => Beverage.Description + ", Mocha";
 
         public override double Cost()
         {
-            return 0.20 + beverage.Cost();
+            return 0.20 + Beverage.Cost();
         }
     }
 }

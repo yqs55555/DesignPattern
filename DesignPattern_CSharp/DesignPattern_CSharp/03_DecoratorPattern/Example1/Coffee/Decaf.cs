@@ -12,7 +12,7 @@ namespace DesignPattern_CSharp.DecoratorPattern
     {
         public Decaf()
         {
-            description = "Decaf Coffee";
+            BeverageDescription = "Decaf Coffee";
         }
 
         public override double Cost()

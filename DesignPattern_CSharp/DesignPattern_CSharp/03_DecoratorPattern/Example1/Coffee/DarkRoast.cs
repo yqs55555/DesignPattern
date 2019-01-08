@@ -12,7 +12,7 @@ namespace DesignPattern_CSharp.DecoratorPattern
     {
         public DarkRoast()
         {
-            this.description = "Dark Roast Coffee";
+            this.BeverageDescription = "Dark Roast Coffee";
         }
 
         public override double Cost()
