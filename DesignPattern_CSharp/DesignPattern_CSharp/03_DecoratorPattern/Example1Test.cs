@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
 
-namespace DesignPattern_CSharp.DecoratorPattern
+namespace DesignPattern_CSharp.DecoratorPattern.Example1
 {
     public class Example1Test
     {
