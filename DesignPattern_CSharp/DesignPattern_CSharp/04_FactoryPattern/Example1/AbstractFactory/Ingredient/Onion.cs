@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DesignPattern_CSharp.FactoryPattern.Example1
+namespace DesignPattern_CSharp.FactoryPattern.Example1.AbstractFactory
 {
-    public class VeggiePizza : Pizza
+    public class Onion : Veggies
     {
     }
 }

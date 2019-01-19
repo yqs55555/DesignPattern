@@ -9,9 +9,22 @@ namespace DesignPattern_CSharp.FactoryPattern.Example1
     {
         public static void Test()
         {
-//            PizzaStore pizzaStore = new PizzaStore(new SimplePizzaFactory());
-//
-//            pizzaStore.OrderPizza("clam");
+            SimpleFactory.PizzaStore sfPizzaStore = new SimpleFactory.PizzaStore(new SimpleFactory.SimplePizzaFactory());
+            sfPizzaStore.OrderPizza("clam");
+            Console.WriteLine("---------------------------------------------------------------------------------------");
+
+            FactoryMethod.NYPizzaStore fmNyPizzaStore = new FactoryMethod.NYPizzaStore();
+            fmNyPizzaStore.OrderPizza("cheese");
+            Console.WriteLine("---------------------------------------------------------------------------------------");
+
+            FactoryMethod.ChicagoPizzaStore fmChicagoPizzaStore = new FactoryMethod.ChicagoPizzaStore();
+            fmChicagoPizzaStore.OrderPizza("cheese");
+            Console.WriteLine("---------------------------------------------------------------------------------------");
+
+            AbstractFactory.NYPizzaStore afNyPizzaStore = new AbstractFactory.NYPizzaStore();
+            afNyPizzaStore.OrderPizza("cheese");
+            Console.WriteLine("---------------------------------------------------------------------------------------");
+
         }
     }
 }
