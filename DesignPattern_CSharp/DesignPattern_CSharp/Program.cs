@@ -9,7 +9,7 @@ namespace DesignPattern_CSharp
     {
         static void Main(string[] args)
         {
-            FactoryPattern.Example1.Example1Test.Test();
+            SingletonPattern.Example1.Example1Test.Test();
         }
     }
 }

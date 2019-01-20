@@ -98,6 +98,12 @@
     <Compile Include="04_FactoryPattern\Example1\SimpleFactory\SimplePizzaFactory.cs" />
     <Compile Include="04_FactoryPattern\Example1\SimpleFactory\Pizza\VeggiePizza.cs" />
     <Compile Include="04_FactoryPattern\FactoryPatternREADME.cs" />
+    <Compile Include="05_SingletonPattern\Example1Test.cs" />
+    <Compile Include="05_SingletonPattern\Example1\SingletonType1.cs" />
+    <Compile Include="05_SingletonPattern\Example1\SingletonType2.cs" />
+    <Compile Include="05_SingletonPattern\Example1\SingletonType3.cs" />
+    <Compile Include="05_SingletonPattern\Example1\SingletonType4.cs" />
+    <Compile Include="05_SingletonPattern\SingletonPatternREADME.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="01_StrategyPattern\Example1\AxeBehavior.cs" />
