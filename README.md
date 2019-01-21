@@ -6,3 +6,4 @@
 * [Decorator Pattern(装饰者模式)](/DesignPattern_CSharp/DesignPattern_CSharp/03_DecoratorPattern)
 * [Factory Pattern(工厂模式)](/DesignPattern_CSharp/DesignPattern_CSharp/04_FactoryPattern)
 * [Singleton Pattern(单例模式)](/DesignPattern_CSharp/DesignPattern_CSharp/05_SingletonPattern)
+* [Command Pattern(命令模式)](/DesignPattern_CSharp/DesignPattern_CSharp/06_CommandPattern)
