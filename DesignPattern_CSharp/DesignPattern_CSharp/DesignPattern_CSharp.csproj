@@ -112,6 +112,14 @@
     <Compile Include="06_CommandPattern\Example1\LightOnCommand.cs" />
     <Compile Include="06_CommandPattern\Example1\NoCommand.cs" />
     <Compile Include="06_CommandPattern\Example1\RemoteControl.cs" />
+    <Compile Include="07_AdapterPattern\ApapterPatternREADME.cs" />
+    <Compile Include="07_AdapterPattern\Example1Test.cs" />
+    <Compile Include="07_AdapterPattern\Example1\ClassAdapter\TurkeyClassAdapter.cs" />
+    <Compile Include="07_AdapterPattern\Example1\IDuck.cs" />
+    <Compile Include="07_AdapterPattern\Example1\ITurkey.cs" />
+    <Compile Include="07_AdapterPattern\Example1\MallardDuck.cs" />
+    <Compile Include="07_AdapterPattern\Example1\ObjectAdapter\TurkeyObjectAdapter.cs" />
+    <Compile Include="07_AdapterPattern\Example1\WildTurkey.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="01_StrategyPattern\Example1\AxeBehavior.cs" />

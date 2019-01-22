@@ -7,3 +7,4 @@
 * [Factory Pattern(工厂模式)](/DesignPattern_CSharp/DesignPattern_CSharp/04_FactoryPattern)
 * [Singleton Pattern(单例模式)](/DesignPattern_CSharp/DesignPattern_CSharp/05_SingletonPattern)
 * [Command Pattern(命令模式)](/DesignPattern_CSharp/DesignPattern_CSharp/06_CommandPattern)
+* [Adapter Pattern(适配器模式)](/DesignPattern_CSharp/DesignPattern_CSharp/07_AdapterPattern)
