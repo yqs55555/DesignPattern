@@ -132,6 +132,12 @@
     <Compile Include="08_FacadePattern\Example1\TheaterLights.cs" />
     <Compile Include="08_FacadePattern\Example1\Tuner.cs" />
     <Compile Include="08_FacadePattern\FacadePatternREADME.cs" />
+    <Compile Include="09_TemplatePattern\Example1Test.cs" />
+    <Compile Include="09_TemplatePattern\Example1\Beverage.cs" />
+    <Compile Include="09_TemplatePattern\Example1\CaffeineBeverage.cs" />
+    <Compile Include="09_TemplatePattern\Example1\Coffee.cs" />
+    <Compile Include="09_TemplatePattern\Example1\Tea.cs" />
+    <Compile Include="09_TemplatePattern\TemplatePatternREADME.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="01_StrategyPattern\Example1\AxeBehavior.cs" />

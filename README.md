@@ -9,3 +9,4 @@
 * [Command Pattern(命令模式)](/DesignPattern_CSharp/DesignPattern_CSharp/06_CommandPattern)
 * [Adapter Pattern(适配器模式)](/DesignPattern_CSharp/DesignPattern_CSharp/07_AdapterPattern)
 * [Facade Pattern(外观模式)](/DesignPattern_CSharp/DesignPattern_CSharp/08_FacadePattern)
+* [Template Pattern(模板模式)](/DesignPattern_CSharp/DesignPattern_CSharp/09_TemplatePattern)
