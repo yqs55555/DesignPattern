@@ -138,6 +138,12 @@
     <Compile Include="09_TemplatePattern\Example1\Coffee.cs" />
     <Compile Include="09_TemplatePattern\Example1\Tea.cs" />
     <Compile Include="09_TemplatePattern\TemplatePatternREADME.cs" />
+    <Compile Include="10_IteratorPattern\Example1Test.cs" />
+    <Compile Include="10_IteratorPattern\Example1\DinerMenu.cs" />
+    <Compile Include="10_IteratorPattern\Example1\DinerMenuIterator.cs" />
+    <Compile Include="10_IteratorPattern\Example1\MenuItem.cs" />
+    <Compile Include="10_IteratorPattern\Example1\Waitress.cs" />
+    <Compile Include="10_IteratorPattern\IteratorPatternREADME.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="01_StrategyPattern\Example1\AxeBehavior.cs" />
