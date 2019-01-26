@@ -141,6 +141,7 @@
     <Compile Include="10_IteratorPattern\Example1Test.cs" />
     <Compile Include="10_IteratorPattern\Example1\DinerMenu.cs" />
     <Compile Include="10_IteratorPattern\Example1\DinerMenuIterator.cs" />
+    <Compile Include="10_IteratorPattern\Example1\DinerMenuYield.cs" />
     <Compile Include="10_IteratorPattern\Example1\MenuItem.cs" />
     <Compile Include="10_IteratorPattern\Example1\Waitress.cs" />
     <Compile Include="10_IteratorPattern\IteratorPatternREADME.cs" />

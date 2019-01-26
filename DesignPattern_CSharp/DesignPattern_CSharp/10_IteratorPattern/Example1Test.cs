@@ -9,10 +9,11 @@ namespace DesignPattern_CSharp.IteratorPattern.Example1
     {
         public static void Test()
         {
-            DinerMenu dinerMenu = new DinerMenu();
+            Waitress waitress = new Waitress(new DinerMenu());
+            waitress.PrintMenu();
+            Console.WriteLine("--------------------------------------------------------------------------");
 
-            Waitress waitress = new Waitress(dinerMenu);
-
+            waitress = new Waitress(new DinerMenuYield());
             waitress.PrintMenu();
         }
     }

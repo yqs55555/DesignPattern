@@ -10,4 +10,5 @@
  * DinerMenu中的MenuItem集合，这样，无论MenuItem集合是以数组还是链表
  * 的形式存在都不会影响外部的访问，缺点在于C#的IEnumerator的接口不允
  * 许遍历过程中删除某个对象，这是应该尤为注意的。
+ * 在DinerMenuYield中，采用C#2中的yield return语法来化简了迭代器。
  */

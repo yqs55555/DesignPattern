@@ -27,6 +27,6 @@ namespace DesignPattern_CSharp.IteratorPattern.Example1
             m_position = -1;
         }
 
-        public object Current => m_items[m_position];
+        public Object Current => m_items[m_position];
     }
 }

@@ -8,15 +8,15 @@ namespace DesignPattern_CSharp.IteratorPattern.Example1
 {
     public class Waitress
     {
-        private DinerMenu m_dinerMenu;
+        private IEnumerable m_dinerMenu;
 
-        public Waitress(DinerMenu dinerMenu)
+        public Waitress(IEnumerable dinerMenu)
         {
             this.m_dinerMenu = dinerMenu;
         }
 
         public void PrintMenu()
-        {
+        { 
             IEnumerator dinnerIterator = m_dinerMenu.GetEnumerator();
             Console.WriteLine("MENU\n----\nLUNCH");
             PrintMenu(dinnerIterator);
