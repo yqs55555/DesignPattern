@@ -112,6 +112,10 @@
     <Compile Include="06_CommandPattern\Example1\LightOnCommand.cs" />
     <Compile Include="06_CommandPattern\Example1\NoCommand.cs" />
     <Compile Include="06_CommandPattern\Example1\RemoteControl.cs" />
+    <Compile Include="06_CommandPattern\Example2\FireCommand.cs" />
+    <Compile Include="06_CommandPattern\Example2\ICommand.cs" />
+    <Compile Include="06_CommandPattern\Example2\InputHandler.cs" />
+    <Compile Include="06_CommandPattern\Example2\JumpCommand.cs" />
     <Compile Include="07_AdapterPattern\ApapterPatternREADME.cs" />
     <Compile Include="07_AdapterPattern\Example1Test.cs" />
     <Compile Include="07_AdapterPattern\Example1\ClassAdapter\TurkeyClassAdapter.cs" />
@@ -145,6 +149,12 @@
     <Compile Include="10_IteratorPattern\Example1\MenuItem.cs" />
     <Compile Include="10_IteratorPattern\Example1\Waitress.cs" />
     <Compile Include="10_IteratorPattern\IteratorPatternREADME.cs" />
+    <Compile Include="11_CompositePattern\CompositePatternREADME.cs" />
+    <Compile Include="11_CompositePattern\Example1Test.cs" />
+    <Compile Include="11_CompositePattern\Example1\Menu.cs" />
+    <Compile Include="11_CompositePattern\Example1\MenuComponent.cs" />
+    <Compile Include="11_CompositePattern\Example1\MenuItem.cs" />
+    <Compile Include="11_CompositePattern\Example1\Waitress.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="01_StrategyPattern\Example1\AxeBehavior.cs" />

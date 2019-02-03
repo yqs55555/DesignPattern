@@ -10,7 +10,7 @@ namespace DesignPattern_CSharp
     {
         static void Main(string[] args)
         {
-            IteratorPattern.Example1.Example1Test.Test();
+            CompositePattern.Example1.Example1Test.Test();
         }
     }
 }
