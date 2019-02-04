@@ -155,6 +155,15 @@
     <Compile Include="11_CompositePattern\Example1\MenuComponent.cs" />
     <Compile Include="11_CompositePattern\Example1\MenuItem.cs" />
     <Compile Include="11_CompositePattern\Example1\Waitress.cs" />
+    <Compile Include="12_StatePattern\Example1Test.cs" />
+    <Compile Include="12_StatePattern\Example1\GumballMachine.cs" />
+    <Compile Include="12_StatePattern\Example1\HasQuarterState.cs" />
+    <Compile Include="12_StatePattern\Example1\IState.cs" />
+    <Compile Include="12_StatePattern\Example1\NoQuarterState.cs" />
+    <Compile Include="12_StatePattern\Example1\SoldOutState.cs" />
+    <Compile Include="12_StatePattern\Example1\SoldState.cs" />
+    <Compile Include="12_StatePattern\Example1\WinnerState.cs" />
+    <Compile Include="12_StatePattern\StatePatternREADME.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="01_StrategyPattern\Example1\AxeBehavior.cs" />
