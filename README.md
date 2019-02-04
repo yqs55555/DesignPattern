@@ -12,3 +12,4 @@
 * [Template Pattern(模板模式)](/DesignPattern_CSharp/DesignPattern_CSharp/09_TemplatePattern)
 * [Iterator Pattern(迭代器模式)](/DesignPattern_CSharp/DesignPattern_CSharp/10_IteratorPattern)
 * [Composite Pattern(组合模式)](/DesignPattern_CSharp/DesignPattern_CSharp/11_CompositePattern)
+* [State Pattern(状态模式)](/DesignPattern_CSharp/DesignPattern_CSharp/12_StatePattern)
