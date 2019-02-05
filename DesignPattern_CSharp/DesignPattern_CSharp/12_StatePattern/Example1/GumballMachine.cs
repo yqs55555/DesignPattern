@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPattern_CSharp.StatePattern.Example1
 {
-    public class GumballMachine
+    public partial class GumballMachine
     {
         private IState m_soldOutState;
         private IState m_noQuarterState;
@@ -24,6 +24,7 @@ namespace DesignPattern_CSharp.StatePattern.Example1
 
         public IState CurrentState
         {
+            get => m_state;
             set => m_state = value;
         }
 
@@ -59,6 +60,11 @@ namespace DesignPattern_CSharp.StatePattern.Example1
         {
             this.m_state.TurnCrank();
             this.m_state.Dispense();
+        }
+
+        public void Refill(int nums)
+        {
+            this.m_state.Refill(nums);
         }
 
         public void ReleaseBall()

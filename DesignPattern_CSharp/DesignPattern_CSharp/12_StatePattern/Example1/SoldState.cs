@@ -5,8 +5,10 @@ using System.Text;
 
 namespace DesignPattern_CSharp.StatePattern.Example1
 {
+    [Serializable]
     public class SoldState : IState
     {
+        [NonSerialized]
         private GumballMachine m_machine;
 
         public SoldState(GumballMachine machine)

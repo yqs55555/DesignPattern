@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
@@ -164,6 +165,16 @@
     <Compile Include="12_StatePattern\Example1\SoldState.cs" />
     <Compile Include="12_StatePattern\Example1\WinnerState.cs" />
     <Compile Include="12_StatePattern\StatePatternREADME.cs" />
+    <Compile Include="13_ProxyPattern\Example1Test.cs" />
+    <Compile Include="13_ProxyPattern\Example1\GumballMachine.cs" />
+    <Compile Include="13_ProxyPattern\Example1\GumballMachineRemote.cs" />
+    <Compile Include="13_ProxyPattern\Example1\GumballMonitor.cs" />
+    <Compile Include="13_ProxyPattern\Example2Test.cs" />
+    <Compile Include="13_ProxyPattern\Example2\IInvocationHandler.cs" />
+    <Compile Include="13_ProxyPattern\Example2\IPerson.cs" />
+    <Compile Include="13_ProxyPattern\Example2\OwnerInvocationHandler.cs" />
+    <Compile Include="13_ProxyPattern\Example2\PersonImpl.cs" />
+    <Compile Include="13_ProxyPattern\ProxyPatternREADME.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="01_StrategyPattern\Example1\AxeBehavior.cs" />

@@ -5,8 +5,10 @@ using System.Text;
 
 namespace DesignPattern_CSharp.StatePattern.Example1
 {
+    [Serializable]
     public class HasQuarterState : IState
     {
+        [NonSerialized]
         private GumballMachine m_machine;
         private Random randomWinner = new Random(System.DateTime.Now.Millisecond);
 

@@ -5,8 +5,10 @@ using System.Text;
 
 namespace DesignPattern_CSharp.StatePattern.Example1
 {
+    [Serializable]
     public class NoQuarterState : IState
     {
+        [NonSerialized]
         private GumballMachine m_machine;
 
         public NoQuarterState(GumballMachine machine)
