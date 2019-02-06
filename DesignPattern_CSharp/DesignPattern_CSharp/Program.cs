@@ -10,7 +10,7 @@ namespace DesignPattern_CSharp
     {
         static void Main(string[] args)
         {
-            ProxyPattern.Example2.Example2Test.Test();
+            CompoundPattern.Test.Example1();
         }
     }
 }
