@@ -14,4 +14,4 @@
 * [Composite Pattern(组合模式)](/DesignPattern_CSharp/DesignPattern_CSharp/11_CompositePattern)
 * [State Pattern(状态模式)](/DesignPattern_CSharp/DesignPattern_CSharp/12_StatePattern)
 * [Proxy Pattern(代理模式)](/DesignPattern_CSharp/DesignPattern_CSharp/13_ProxyPattern)
-* [Compound Pattern(代理模式)](/DesignPattern_CSharp/DesignPattern_CSharp/14_CompoundPattern)
+* [Compound Pattern(复合模式)](/DesignPattern_CSharp/DesignPattern_CSharp/14_CompoundPattern)
