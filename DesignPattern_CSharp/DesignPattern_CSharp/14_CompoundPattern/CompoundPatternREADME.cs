@@ -12,5 +12,10 @@
  * 来进行分组管理，并使用迭代器模式（Iterator）来遍历组内的鸭子；最后，
  * 呱呱叫学家希望呱呱声响起时会被通知，所以采用了观察者模式（Observer）来
  * 观察这群鸭子。
+ *
+ * 在Example2中，创建了一个MVC模式，DJView负责显示，同时通过观察者模式(Observer)
+ * 对BeatModel进行观察。BeatModel存储着数据，在这里即音量大小，当音量发生改变时，
+ * 会通知DJView。BeatController是具体的逻辑操作，例如按下音量减小键时在controller
+ * 里将model的音量减少，然后model会通知订阅的音量变化的view做出响应。
  */
  

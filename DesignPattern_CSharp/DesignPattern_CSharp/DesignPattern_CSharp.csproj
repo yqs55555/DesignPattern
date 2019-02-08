@@ -193,6 +193,14 @@
     <Compile Include="14_CompoundPattern\Example1\Observer\IQuackObservable.cs" />
     <Compile Include="14_CompoundPattern\Example1\Observer\QuackSender.cs" />
     <Compile Include="14_CompoundPattern\Example1\Observer\QuackOlogist.cs" />
+    <Compile Include="14_CompoundPattern\Example2\Common\Observer\IObservable.cs" />
+    <Compile Include="14_CompoundPattern\Example2\Common\Observer\IObserver.cs" />
+    <Compile Include="14_CompoundPattern\Example2\Common\Sequencer.cs" />
+    <Compile Include="14_CompoundPattern\Example2\Controller\BeatController.cs" />
+    <Compile Include="14_CompoundPattern\Example2\Controller\IController.cs" />
+    <Compile Include="14_CompoundPattern\Example2\Model\BeatModel.cs" />
+    <Compile Include="14_CompoundPattern\Example2\Model\IBeatModel.cs" />
+    <Compile Include="14_CompoundPattern\Example2\View\DJView.cs" />
     <Compile Include="14_CompoundPattern\Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
