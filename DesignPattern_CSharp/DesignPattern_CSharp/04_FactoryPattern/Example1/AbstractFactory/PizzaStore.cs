@@ -14,7 +14,7 @@ namespace DesignPattern_CSharp.FactoryPattern.Example1.AbstractFactory
         /// <returns></returns>
         public Pizza OrderPizza(string pizzaType)
         {
-            Pizza pizza = this.CreatPizza(pizzaType);
+            Pizza pizza = this.CreatePizza(pizzaType);
 
             if (pizza != null)
             {
@@ -32,6 +32,6 @@ namespace DesignPattern_CSharp.FactoryPattern.Example1.AbstractFactory
         /// </summary>
         /// <param name="pizzaType"></param>
         /// <returns></returns>
-        protected abstract Pizza CreatPizza(string pizzaType);
+        protected abstract Pizza CreatePizza(string pizzaType);
     }
 }

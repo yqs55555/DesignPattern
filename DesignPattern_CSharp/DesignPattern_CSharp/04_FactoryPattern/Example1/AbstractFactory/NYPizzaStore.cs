@@ -7,7 +7,7 @@ namespace DesignPattern_CSharp.FactoryPattern.Example1.AbstractFactory
 {
     public class NYPizzaStore : PizzaStore
     {
-        protected override Pizza CreatPizza(string pizzaType)
+        protected override Pizza CreatePizza(string pizzaType)
         {
             Pizza pizza = null;
             IPizzaIngredientFactory ingredientFactory = new NYPizzaIngredientFactory();

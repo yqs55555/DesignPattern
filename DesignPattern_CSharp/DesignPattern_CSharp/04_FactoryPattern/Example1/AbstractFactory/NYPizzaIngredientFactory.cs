@@ -7,33 +7,33 @@ namespace DesignPattern_CSharp.FactoryPattern.Example1.AbstractFactory
 {
     public class NYPizzaIngredientFactory : IPizzaIngredientFactory
     {
-        public Dough CreatDough()
+        public Dough CreateDough()
         {
             return new ThinCrustDough();
         }
 
-        public Sauce CreatSauce()
+        public Sauce CreateSauce()
         {
             return new MarinaraSauce();
         }
 
-        public Cheese CreatCheese()
+        public Cheese CreateCheese()
         {
             return new ReggianoCheese();
         }
 
-        public Veggies[] CreatVeggies()
+        public Veggies[] CreateVeggies()
         {
             Veggies[] veggies = { new Garlic(), new Onion(), new Mushroom(), new RedPepper() };
             return veggies;
         }
 
-        public Pepperoni CreatPepperoni()
+        public Pepperoni CreatePepperoni()
         {
             return new SlicedPepperoni();
         }
 
-        public Clams CreatClams()
+        public Clams CreateClams()
         {
             return new FreshClams();
         }

@@ -7,11 +7,11 @@ namespace DesignPattern_CSharp.FactoryPattern.Example1.AbstractFactory
 {
     public interface IPizzaIngredientFactory
     {
-        Dough CreatDough();
-        Sauce CreatSauce();
-        Cheese CreatCheese();
-        Veggies[] CreatVeggies();
-        Pepperoni CreatPepperoni();
-        Clams CreatClams();
+        Dough CreateDough();
+        Sauce CreateSauce();
+        Cheese CreateCheese();
+        Veggies[] CreateVeggies();
+        Pepperoni CreatePepperoni();
+        Clams CreateClams();
     }
 }
