@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -139,18 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01_CommandPattern\Test.cpp" />
-    <ClCompile Include="01_CommandPattern\Test.h" />
     <ClCompile Include="01_CommandPattern\JumpCommand.cpp" />
     <ClCompile Include="01_CommandPattern\InputHandler.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="01_CommandPattern\MoveUnitCommand.cpp" />
+    <ClCompile Include="02_FlyweightPattern\World.cpp" />
+    <ClCompile Include="02_FlyweightPattern\Terrain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01_CommandPattern\Command.h" />
     <ClInclude Include="01_CommandPattern\JumpCommand.h" />
     <ClInclude Include="01_CommandPattern\InputHandler.h" />
     <ClInclude Include="01_CommandPattern\MoveUnitCommand.h" />
+    <ClInclude Include="02_FlyweightPattern\World.h" />
+    <ClInclude Include="02_FlyweightPattern\Terrain.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

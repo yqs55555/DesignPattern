@@ -13,39 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\01_CommandPattern">
+      <UniqueIdentifier>{83729b40-8db6-44a4-a78a-2f2aa5f1821e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\01_CommandPattern">
+      <UniqueIdentifier>{571b854b-0620-4779-abe3-0222fd1d5df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\02_FlyweightPattern">
+      <UniqueIdentifier>{67249978-04ca-4555-b2fd-cabc93f6ddc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\02_FlyweightPattern">
+      <UniqueIdentifier>{20dc219c-e3fd-4843-8f88-233b5d22dcac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="01_CommandPattern\Test.h">
-      <Filter>源文件</Filter>
+    <ClCompile Include="01_CommandPattern\InputHandler.cpp">
+      <Filter>源文件\01_CommandPattern</Filter>
     </ClCompile>
     <ClCompile Include="01_CommandPattern\JumpCommand.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="01_CommandPattern\InputHandler.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01_CommandPattern</Filter>
     </ClCompile>
     <ClCompile Include="01_CommandPattern\MoveUnitCommand.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01_CommandPattern</Filter>
     </ClCompile>
-    <ClCompile Include="01_CommandPattern\Test.cpp">
+    <ClCompile Include="02_FlyweightPattern\Terrain.cpp">
+      <Filter>源文件\02_FlyweightPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="02_FlyweightPattern\World.cpp">
+      <Filter>源文件\02_FlyweightPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01_CommandPattern\Command.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="01_CommandPattern\JumpCommand.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\01_CommandPattern</Filter>
     </ClInclude>
     <ClInclude Include="01_CommandPattern\InputHandler.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\01_CommandPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="01_CommandPattern\JumpCommand.h">
+      <Filter>头文件\01_CommandPattern</Filter>
     </ClInclude>
     <ClInclude Include="01_CommandPattern\MoveUnitCommand.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\01_CommandPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="02_FlyweightPattern\Terrain.h">
+      <Filter>头文件\02_FlyweightPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="02_FlyweightPattern\World.h">
+      <Filter>头文件\02_FlyweightPattern</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
