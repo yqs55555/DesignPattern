@@ -15,3 +15,7 @@
 * [State Pattern(状态模式)](/DesignPattern_CSharp/DesignPattern_CSharp/12_StatePattern)
 * [Proxy Pattern(代理模式)](/DesignPattern_CSharp/DesignPattern_CSharp/13_ProxyPattern)
 * [Compound Pattern(复合模式)](/DesignPattern_CSharp/DesignPattern_CSharp/14_CompoundPattern)
+
+## [设计模式C++版本](/DesignPattern_CPP/DesignPattern_CPP)
+* [Command Pattern(命令模式)](/DesignPattern_CPP/DesignPattern_CPP/01_CommandPattern)
+* [Flywieght Pattern(享元模式)](/DesignPattern_CPP/DesignPattern_CPP/02_FlyweightPattern)
